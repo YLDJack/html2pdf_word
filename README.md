@@ -40,7 +40,7 @@ npm install html2pdf_word -s
           htmlToPDForWord('.chart-boxs','文件名','PDF','标题','副标题','楷体');
 ```
 
-![PDF (1)](D:\DTStack\dtcat\html2pdf_word\PDF (1).gif)
+![PDF (1)](https://github.com/YLDJack/html2pdf_word/raw/master/PDF%20(1).gif)
 
 
 
