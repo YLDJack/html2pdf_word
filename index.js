@@ -3,10 +3,10 @@ import htmlToWord from './src/htmlToWord';
 
 export default function htmlToPDForWord(domId, fileName, fileType, title, subTitle, font) {
     if (!domId || !fileName) {
-        throw 'domId and fileName cannot be empty'
+        throw new TypeError ('domId and fileName cannot be empty');
     }
     if (!typeof domId === 'string' || domId.search(/^(\.|\#)/) === -1) {
-        throw 'domId must be string and starts with "." or "#"'
+        throw new TypeError ('domId must be string and starts with "." or "#"');
     }
 
     
